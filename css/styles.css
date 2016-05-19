@@ -1,11 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster);
+
 * {
-  font-family: monospace;
+  font-family: "brandon-grotesque";
   padding: 0;
   margin: 0;
 }
 .fancy {
-  font-family: 'Lobster', Arial, serif;
   font-weight: 100;
   font-size: 2em;
 }
@@ -54,7 +53,6 @@ h1, p.subheading {
   text-shadow: 2px 2px 1px black, -2px -2px 1px black;
 }
 h2 {
-  font-family: 'Lobster', Arial, serif;
   font-weight: 400;
 }
 #about, #testimony, #hire {
@@ -70,33 +68,40 @@ h2 {
 #about-section {
   padding: 10px 0;
   width: 100%;
-  background-color: #bbb;
+  background-color: #d5d5d5;
+  //background-color: #c09f80;
+  //background-color: #cdcdcd;
 }
 #testimony-section {
   padding: 10px 0;
   width: 100%;
-  background-color: #999;
+  background-color: #909982;
+  //background-color: #76323f;
+  //background-color: #000;
 }
 #portfolio-section {
   padding: 10px 0;
   width: 100%;
-  background-color: #555;
+  background-color: #6d7793;
+  //background-color: #565656;
+  //background-color: #eddecd;
+}
+#portfolio {
+  text-align: center;
+  margin: 0px auto;
+  max-width: 900px;
+  height: 600px;
 }
 #hire-me-section {
   padding: 10px 0;
   width: 100%;
   color: white;
-  background-color: #333;
+  background-color: #96858f;
+  //background-color: #d7cec7;
+  //background-color: #c06014;
 }
 #hire-me-section h2 {
   margin-top: -20px;
-}
-#portfolio {
-  text-align: center;
-  //border: solid black 1px;
-  margin: 0px auto;
-  max-width: 900px;
-  height: 600px;
 }
 .container ul li a {
   text-decoration: none;
